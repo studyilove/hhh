@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html>
+<head>
+     <title>yyy</title>
+	 
+	 <style>
+	 .main{
+	       width:500px;
+		   height:500px;
+		   margin:100px auto;
+		   position:relative;
+		   animation:xt 2s linear infinite;
+          }
+		   
+	.a{
+	   width:300px;
+	   height:300px;
+	   background:red;
+	   border-radius:50%;
+	   position:absolute;
+	   left:0px;
+	   top:0px;
+	   }
+	 
+	 .b{
+	   width:300px;
+	   height:300px;
+	   background:red;
+	   border-radius:50%;
+	   position:absolute;
+	   top:0px;
+	   right:0px;
+	   
+	   }
+	 .c{
+	   width:300px;
+	   height:300px;
+	   background:red;
+	   transform:translate(100px,100px)rotate(45deg);
+	   
+	   }
+	   
+	  @keyframes xt{
+	   0%{transform:scale(0.5);}
+	   100%{transform:scale(1)}}
+	</style>
+</head>
+<body>
+    <div class="main">
+	   <div class="a"></div>
+	   <div class="b"></div>
+	   <div class="c"></div>
+	</div>
+</body>
+</html>
